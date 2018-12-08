@@ -1,4 +1,4 @@
-package com.example.andreea.androidfundamentals.week3.models.models;
+package com.example.andreea.androidfundamentals.week3.models;
 
 public class Authentication {
     private String mEmail;

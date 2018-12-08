@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">AndroidFundamentals</string>
+    <string name="app_name">Android Developer Fundamentals</string>
+    <string name="login">LOGIN</string>
+    <string name="phone_hint">Phone</string>
+    <string name="email_hint">Email</string>
+    <string name="submit_button">submit</string>
+    <string name="accept_t_c"><![CDATA[I accept T&C]]></string>
+    <string name="error_email_input">Fill the input with a valid email address</string>
+    <string name="error_phone_input">Fill the input with a phone number</string>
+    <string name="error_is_accepted_input">Check should be accepted</string>
+    <string name="srollview">SrollView: A view group that allows the view hierarchy placed within it to be scrolled. Scroll view may have only one direct child placed within it. To add multiple views within the scroll view, make the direct child you add a view group, for example LinearLayout and place additional views within that LinearLayout.</string>
+    <string name="call">Call</string>
 </resources>

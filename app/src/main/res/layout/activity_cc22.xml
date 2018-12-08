@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".week3.CC22Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+            android:layout_width="@dimen/rellay_textview"
+            android:layout_height="@dimen/rellay_textview"
+            android:layout_margin="@dimen/margin_rell"
+            android:background="#EFC85A"/>
+
+        <TextView
+            android:layout_width="@dimen/rellay_textview"
+            android:layout_height="@dimen/rellay_textview"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="@dimen/margin_rell"
+            android:layout_marginRight="161dp"
+            android:background="#91dbcf" />
+
+        <TextView
+            android:layout_width="@dimen/rellay_textview"
+            android:layout_height="@dimen/rellay_textview"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin_rell"
+            android:layout_marginRight="101dp"
+            android:background="#41b09d" />
+
+        <TextView
+            android:layout_width="@dimen/rellay_textview"
+            android:layout_height="@dimen/rellay_textview"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:background="#FB987E" />
+    </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srollview"
+            android:layout_margin="@dimen/margin_elements"/>
+    </LinearLayout>
+</ScrollView>

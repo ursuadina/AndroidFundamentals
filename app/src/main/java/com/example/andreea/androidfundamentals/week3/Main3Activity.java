@@ -1,17 +1,18 @@
-package com.example.andreea.week3;
+package com.example.andreea.androidfundamentals.week3;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.andreea.week3.models.Authentication;
+import com.example.andreea.androidfundamentals.R;
+import com.example.andreea.androidfundamentals.week3.models.Authentication;
 import com.example.andreea.week3.utils.EmailHelper;
 
-public class MainActivity extends AppCompatActivity {
+public class Main3Activity extends AppCompatActivity {
 
     private EditText mEditTextEmail;
     private EditText mEditTextPhone;
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             mAuthentication.setAccepted(true);
             return true;
         } else {
-            Toast.makeText(MainActivity.this, getResources().getString(R.string
+            Toast.makeText(com.example.andreea.androidfundamentals.week3.Main3Activity.this, getResources().getString(R.string
                     .error_is_accepted_input), Toast.LENGTH_SHORT).show();
             return false;
         }
