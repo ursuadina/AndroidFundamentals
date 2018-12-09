@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week5.PicassoActivity">
+        <activity android:name=".week5.codechallenge5.CC5Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,14 @@
         <activity android:name=".week4.CodeChallenge4Activity" />
         <activity android:name=".week4.CodeChallenge3Activity" />
         <activity android:name=".week4.RecyclerViewActivity" />
-        <activity android:name=".week5.SecondActivity"></activity>
+        <activity android:name=".week5.SecondActivity" />
+        <activity android:name=".week5.PicassoActivity" />
+        <activity android:name=".week5.codechallenge2.Second2Activity" />
+        <activity android:name=".week5.codechallenge2.FirstActivity" />
+        <activity android:name=".week5.codechallenge3.PassageActivity" />
+        <activity android:name=".week5.codechallenge3.ButtonsActivity" />
+        <activity android:name=".week5.codechallenge4.ReceiverActivity" />
+        <activity android:name=".week5.codechallenge4.SenderActivity"></activity>
     </application>
 
 </manifest>
