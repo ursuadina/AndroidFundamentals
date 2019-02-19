@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentDP">#FF6D00</color>
+    <color name="colorSelectableItemBackgroundBorderlessDP">#303F9F</color>
+    <color name="colorControlActivatedDP">#33691E</color>
+    <color name="colorControlHighlightDP">#D50000</color>
 </resources>

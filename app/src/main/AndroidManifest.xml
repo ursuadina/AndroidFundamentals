@@ -3,7 +3,9 @@
     package="com.example.andreea.androidfundamentals">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" android:required="false"  />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week6.ListenerActivity">
+        <activity android:name=".week7.CC6W7Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +36,24 @@
         <activity android:name=".week5.codechallenge4.SenderActivity" />
         <activity android:name=".week5.codechallenge5.CC5Activity" />
         <activity android:name=".week6.StaticActivity" />
-        <activity android:name=".week6.DynamicActivity"></activity>
+        <activity android:name=".week6.DynamicActivity" />
+        <activity android:name=".week6.ListenerActivity" />
+        <activity android:name=".week7.CardViewActivity" />
+        <activity android:name=".week7.AlertsActivity" />
+        <activity android:name=".week8.GithubActivity" />
+        <activity
+            android:name=".week6.CC6Week6Activity"
+            android:label="@string/title_activity_cc6_week6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".week6.CC7Week6Activity"
+            android:label="@string/title_activity_cc7_week6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".week8.firebaseAuth.SignInActivity" />
+        <activity android:name=".week7.CC1W7Activity" />
+        <activity android:name=".week7.CC2W7Activity" />
+        <activity android:name=".week7.CC4W7Activity" />
+        <activity android:name=".week7.CC5W7Activity"></activity>
     </application>
 
 </manifest>
