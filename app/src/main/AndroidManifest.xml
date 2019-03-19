@@ -5,7 +5,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-feature android:name="android.hardware.camera" android:required="false"  />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -13,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".week7.CC6W7Activity">
+        <activity android:name=".week9.TestSharedPreferencesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,7 +57,8 @@
         <activity android:name=".week7.CC1W7Activity" />
         <activity android:name=".week7.CC2W7Activity" />
         <activity android:name=".week7.CC4W7Activity" />
-        <activity android:name=".week7.CC5W7Activity"></activity>
+        <activity android:name=".week7.CC5W7Activity" />
+        <activity android:name=".week7.CC6W7Activity" />
     </application>
 
 </manifest>
